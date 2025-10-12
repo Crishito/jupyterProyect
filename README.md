@@ -31,3 +31,9 @@ Se calculan medidas de tendencia central, dispersión y se generan visualizacion
 2. Abrir `analisis_energia.ipynb` en Jupyter Notebook o PyCharm.
 3. Ejecutar todas las celdas para ver los resultados.
 4. Los gráficos se guardan automáticamente en la carpeta `plots/`.
+
+
+## Enlace al Repositorio
+
+El código completo y la documentación del proyecto están disponibles en GitHub:  
+[Acceder al Repositorio](https://github.com/Crishito/jupyterProyect.git)
