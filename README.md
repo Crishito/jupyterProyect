@@ -15,7 +15,7 @@ Se calculan medidas de tendencia central, dispersión y se generan visualizacion
 ## 3. Resultados
 - Media, Mediana, Moda del consumo de energía.
 - Varianza, Desviación Estándar y Rango.
-- Histograma de consumo de energía.
+- Histograma de consumo de energía (Generado con plotnine / ggplot).
 - Gráfico circular de tipos de vivienda.
 - Diagrama de Pareto del consumo por tipo de vivienda.
 
@@ -31,6 +31,12 @@ Se calculan medidas de tendencia central, dispersión y se generan visualizacion
 2. Abrir `analisis_energia.ipynb` en Jupyter Notebook o PyCharm.
 3. Ejecutar todas las celdas para ver los resultados.
 4. Los gráficos se guardan automáticamente en la carpeta `plots/`.
+
+## Nota Importante sobre Visualización (ggplot) en PyCharm
+- Este proyecto utiliza la librería plotnine (basada en la sintaxis ggplot de R) para la generación de gráficos como el Histograma.
+- En Jupyter Notebook: Los gráficos se mostrarán automáticamente debajo de la celda de código.
+- En PyCharm/Scripts: Debido a conflictos con el backend de Matplotlib, los gráficos de plotnine no se abrirán en una ventana emergente. La única forma de visualizarlos es abriendo directamente el archivo PNG generado:
+- Verifique la carpeta plots/ después de la ejecución. El archivo histograma_frecuencia_consumo_ggplot.png contiene la visualización final en alta resolución.
 
 
 ## Enlace al Repositorio
